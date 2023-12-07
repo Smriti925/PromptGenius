@@ -1,0 +1,60 @@
+
+:root {  
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --green: rgb(155, 244, 143);
+    --black: rgb(22, 22, 22);
+    --red: rgb(255, 88, 88);
+  }
+
+
+
+.magic-text {
+    animation : background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--pink),
+      var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+
+  .answer-text {
+    animation : background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--green),
+      var(--black),
+      var(--purple)
+
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  
+
+  .question-text {
+    animation : background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--red),
+      var(--violet),
+      var(--pink),
+      var(--purple)
+
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  
+
